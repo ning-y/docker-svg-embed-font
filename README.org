@@ -1,3 +1,12 @@
 #+title: docker-svg-embed-font
 
-A Docker container for [[https://github.com/BTBurke/svg-embed-font][svg-embed-font]].
+A Docker container for [[https://github.com/BTBurke/svg-embed-font][svg-embed-font]], available on Dockerhub as [[https://hub.docker.com/repository/docker/ningyuan/svg-embed-font/general][ningyuan/svg-embed-font:0.0.1]].
+
+* Build instructions
+
+A reminder for myself:
+
+#+begin_src
+docker build -t ningyuan/svg-embed-font:<VERSION> - < Dockerfile
+docker push ningyuan/svg-embed-font:<VERSION>
+#+end_src
